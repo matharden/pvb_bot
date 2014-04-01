@@ -1,0 +1,9 @@
+[
+  "hipchat-api.coffee",
+  "redis-brain.coffee",
+  "remind.coffee",
+  "zendesk.coffee",
+  "nationalrail.coffee",
+  "random-user.coffee",
+  "remember.coffee"
+]
