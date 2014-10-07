@@ -2,7 +2,7 @@
 #   Return a list of current URLs on the PVB Project
 #
 # Commands:
-#   hubot url/urls/list envs - returns list of project urls
+#   hubot list urls/envs - returns list of project urls (also works without "list")
 #   mention "ZenDesk" and "email" - returns the ZenDesk email for PVB
 
 
@@ -15,7 +15,7 @@ envs = ->
 
 module.exports = (robot) ->
   # Project URLS
-  robot.respond /(urls?|list envs)/i, (msg) ->
+  robot.respond /((list )?(urls?|envs))/i, (msg) ->
     msg.send envs()
 
   # Project help
