@@ -26,7 +26,8 @@
     "hubot-hipchat": "~2.7.5",
     "xml2js": "0.1.14",
     "hubot-cron": ">= 0.1.0",
-    "underscore": "^1.6.0"
+    "underscore": "^1.6.0",
+    "hubot-voting": "^1.0.0"
   },
   "engines": {
     "node": ">= 0.8.x",
