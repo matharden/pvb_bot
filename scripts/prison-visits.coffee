@@ -31,3 +31,6 @@ module.exports = (robot) ->
 
   robot.hear /((ms|microsoft) )?excel/i, (msg) ->
     msg.reply "Thou shalt always use MS Excel! It's awesome. Unless you want to work on a simple spreadsheet in real time, then try Google Sheets."
+
+  robot.respond /emote/i, (msg) ->
+    msg.emote 'this is emote'
