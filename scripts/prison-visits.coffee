@@ -29,7 +29,7 @@ module.exports = (robot) ->
   robot.hear /((ms|microsoft) )?power ?point/i, (msg) ->
     msg.reply "Thou shalt not use MS PowerPoint! Try using Google Slides, or if it's a diagram you could try Google Drawings."
 
-  robot.hear /((ms|microsoft) )?excel/i, (msg) ->
+  robot.hear /(\b(ms|microsoft) )?excel\b/i, (msg) ->
     msg.reply "Thou shalt always use MS Excel! It's awesome. Unless you want to work on a simple spreadsheet in real time, then try Google Sheets."
 
   robot.respond /emote/i, (msg) ->
